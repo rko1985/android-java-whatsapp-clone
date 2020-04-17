@@ -1,4 +1,4 @@
-#Thu Apr 16 10:39:14 HST 2020
+#Fri Apr 17 09:36:50 HST 2020
 base.0=C\:\\Users\\russe\\AndroidStudioProjects\\WhatsAppClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.1=classes.dex
 renamed.0=classes2.dex
