@@ -32,6 +32,7 @@ android/support/v4/media/MediaBrowserCompat$Subscription.class
 android/support/v4/app/LoaderManager.class
 com/google/android/gms/internal/zzfd.class
 com/google/android/gms/analytics/HitBuilders$ItemBuilder.class
+com/parse/starter/ChatActivity$2.class
 com/google/android/gms/internal/zzlc.class
 com/google/android/gms/cast/framework/media/zzc.class
 com/google/android/gms/cast/framework/SessionManager.class
@@ -317,6 +318,7 @@ android/support/v4/app/ActivityCompatHoneycomb.class
 com/google/android/gms/nearby/connection/dev/AppIdentifier.class
 com/google/android/gms/auth/api/signin/internal/SignInHubActivity$zza.class
 com/google/android/gms/ads/internal/overlay/AdLauncherIntentInfoParcel.class
+com/parse/starter/ChatActivity$1.class
 android/support/annotation/BoolRes.class
 com/google/android/gms/internal/zzkm.class
 android/support/v4/media/MediaMetadataCompat.class
@@ -562,6 +564,7 @@ android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class
 com/google/android/gms/gcm/Task.class
 android/support/v4/widget/MaterialProgressDrawable.class
 com/google/android/gms/wearable/DataApi$DataItemResult.class
+com/parse/SaveCallback.class
 android/support/v4/media/MediaDescriptionCompat$Builder.class
 android/support/v4/media/MediaMetadataCompat$Builder.class
 android/support/v7/app/ActionBarDrawerToggle$Delegate.class
