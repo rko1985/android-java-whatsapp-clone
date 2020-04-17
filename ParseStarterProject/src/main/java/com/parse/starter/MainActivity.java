@@ -32,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
 
   Boolean loginModeActive = false;
 
+  public void redirectIfLoggedIn(){
+    if(ParseUser.getCurrentUser() != null){
+      Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+      startActivity(intent);
+    }
+  }
+
   public void toogleLoginMode(View view){
 
     Button loginSignupButton = (Button) findViewById(R.id.loginSignupButton);
@@ -62,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         public void done(ParseUser user, ParseException e) {
           if(e == null){
             Log.i("INFO", "user is logged in");
+            redirectIfLoggedIn();
           }else{
             String message = e.getMessage();
 
@@ -84,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
         public void done(ParseException e) {
           if (e == null) {
             Log.i("INFO", "user signed up!!!");
+            redirectIfLoggedIn();
           } else {
             String message = e.getMessage();
 
@@ -105,6 +114,8 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     setTitle("WhatsApp Login");
+
+    redirectIfLoggedIn();
     
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
